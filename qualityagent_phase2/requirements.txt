@@ -1,0 +1,23 @@
+# QualityAgent Phase 2 — Dépendances Python
+# Installation : pip install -r requirements.txt
+
+# ── Détection (YOLOv8) ──────────────────────────────────────────────────────
+ultralytics>=8.0.0
+
+# ── Vision Transformer (DINOv2) ─────────────────────────────────────────────
+transformers>=4.35.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# ── Augmentation ────────────────────────────────────────────────────────────
+albumentations>=1.3.0
+
+# ── Métriques & évaluation ──────────────────────────────────────────────────
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+numpy>=1.24.0
+pandas>=2.0. 0
+
+# ── Images ──────────────────────────────────────────────────────────────────
+Pillow>=10.0.0
+opencv-python>=4.8.0

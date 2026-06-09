@@ -1,0 +1,21 @@
+# confection.yaml — Configuration dataset QualityAgent
+# Format YOLO ultralytics
+
+path: "C:\\Users\\anash\\Downloads\\qualityagent_phase2\\qualityagent_phase2\\data\\Fabric Defect Detection" 
+train: "C:\\Users\\anash\\Downloads\\qualityagent_phase2\\qualityagent_phase2\\data\\Fabric Defect Detection\\train"       
+val: "C:\\Users\\anash\\Downloads\\qualityagent_phase2\\qualityagent_phase2\\data\\Fabric Defect Detection\\test"            
+            
+
+# Nombre de classes
+
+nc: 2
+
+# Noms des classes (ordre = index)
+
+names:
+  0: defect
+  1: ok
+
+# Metadata
+description: "Défauts visuels en confection textile"
+version: "1.0"
