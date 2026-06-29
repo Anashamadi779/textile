@@ -1,0 +1,12 @@
+landingai
+mistralai
+opencv-python
+Pillow
+python-dotenv
+loguru
+numpy
+streamlit
+requests
+pandas
+plotly
+reportlab
